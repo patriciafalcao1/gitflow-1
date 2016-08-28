@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $.post("participants.json", function(data) {
+    $.get("participants.json", function(data) {
         console.log(data);
     });
 });
